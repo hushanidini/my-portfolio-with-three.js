@@ -21,6 +21,6 @@ I use the following:
 * TailwindCSS
 * Framer Motion
 
-<img width="910" alt="image" src="https://github.com/hushanidini/my-portfolio-with-three.js/assets/48478940/5bf1fc1d-d30d-41d1-9fc0-e3af1d11e00c">
+<img width="903" alt="image" src="https://github.com/hushanidini/my-portfolio-with-three.js/assets/48478940/42f738b5-a7d0-4ff4-81aa-591c5ea8696e">
 <img width="915" alt="image" src="https://github.com/hushanidini/my-portfolio-with-three.js/assets/48478940/af5b2824-ae9b-422c-9e0a-2f08c3de7f44">
 
