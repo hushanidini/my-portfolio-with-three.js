@@ -18,6 +18,9 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const EMAILJS_SERVICE_ID = 'service_1icqcbk';
+  const EMAILJS_TEMPLATE_ID = 'template_fuo0ugd';
+  const EMAILJS_PUBLIC_KEY = '1Yn1ptoZPfAWQKh6k';
 
   const handleChange = (e) => {
     const { target } = e;
@@ -35,8 +38,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Hushani Weerasinghe",
@@ -44,7 +47,7 @@ const Contact = () => {
           to_email: "hushanid@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
