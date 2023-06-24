@@ -44,7 +44,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Hushani Weerasinghe",
           from_email: form.email,
-          to_email: "developerdini89@gmail.com",
+          to_email: "hushanid@gmail.com",
           message: form.message,
         },
         EMAILJS_PUBLIC_KEY
