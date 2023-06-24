@@ -14,14 +14,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  rs,
+  kim,
+  abans
 } from "../assets";
 
 export const navLinks = [
@@ -113,8 +113,8 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "KIMP.IO",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: kim,
+    iconBg: "#E6DEDD",
     date: "January 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -125,8 +125,8 @@ const experiences = [
   },
   {
     title: "Software Engineer (React/PHP)",
-    company_name: "THARU PROCESSING PVT LTD",
-    icon: tesla,
+    company_name: "Racing and Sports | Tharuprocessing Pvt Ltd",
+    icon: rs,
     iconBg: "#E6DEDD",
     date: "Aug 2019 - jan 2022",
     points: [
@@ -139,8 +139,8 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "SIRIUS TECHNOLOGIES SERVICE (PVT) LTD",
-    icon: meta,
+    company_name: "Abans Group | SIRIUS TECHNOLOGIES SERVICE (PVT) LTD",
+    icon: abans,
     iconBg: "#E6DEDD",
     date: "Jun 2016 - july 2019",
     points: [
@@ -155,7 +155,7 @@ const experiences = [
     title: "Web Developer",
     company_name: "WEBCRAFT (PVT) LTD",
     icon: shopify,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Jun 2014 - Jun 2016",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
