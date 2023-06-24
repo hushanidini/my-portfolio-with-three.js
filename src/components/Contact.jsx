@@ -18,7 +18,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
-  const EMAILJS_SERVICE_ID = 'service_1icqcbk';
+  const EMAILJS_SERVICE_ID = 'service_v9sbcre';
   const EMAILJS_TEMPLATE_ID = 'template_fuo0ugd';
   const EMAILJS_PUBLIC_KEY = '1Yn1ptoZPfAWQKh6k';
 
@@ -44,7 +44,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Hushani Weerasinghe",
           from_email: form.email,
-          to_email: "hushanid@gmail.com",
+          to_email: "developerdini89@gmail.com",
           message: form.message,
         },
         EMAILJS_PUBLIC_KEY
