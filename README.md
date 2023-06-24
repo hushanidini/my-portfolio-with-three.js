@@ -22,5 +22,6 @@ I use the following:
 * Framer Motion
 
 <img width="903" alt="image" src="https://github.com/hushanidini/my-portfolio-with-three.js/assets/48478940/42f738b5-a7d0-4ff4-81aa-591c5ea8696e">
-<img width="915" alt="image" src="https://github.com/hushanidini/my-portfolio-with-three.js/assets/48478940/af5b2824-ae9b-422c-9e0a-2f08c3de7f44">
+<img width="903" alt="image" src="https://github.com/hushanidini/my-portfolio-with-three.js/assets/48478940/94cc4da6-cf5a-4a33-8528-9dc6aa63a9f6">
+
 
