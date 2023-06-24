@@ -3,8 +3,9 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
 import React from "react";
-import { Tilt }  from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -21,7 +22,7 @@ const ServiceCard = ({ index, title, icon }) => (
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 450
         }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
@@ -46,7 +47,6 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
-
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
@@ -57,7 +57,22 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let`s work together to bring your ideas to life!
       </motion.p>
-
+      <motion.div variants={textVariant()}>
+        <Link
+          to='https://www.linkedin.com/in/hushani-weerasinghe-687950226/'
+          className='cursor-pointer'
+          target='_blank'
+        >
+          {" "}
+          <button
+            type='button'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+          >
+            {" "}
+            Hire Me
+          </button>
+        </Link>
+      </motion.div>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
