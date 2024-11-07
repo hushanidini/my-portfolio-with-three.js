@@ -59,7 +59,7 @@ const About = () => {
       </motion.p>
       <motion.div variants={textVariant()}>
         <Link
-          to='https://www.linkedin.com/in/hushani-weerasinghe-687950226/'
+          to='https://www.linkedin.com/in/hushani-weerasinghe-b91113297/'
           className='cursor-pointer'
           target='_blank'
         >
